@@ -1,0 +1,53 @@
+body{
+    text-align:center;
+     background-image:url("https://images.pexels.com/photos/1544376/pexels-photo-1544376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+     background-size:cover;
+     background-position:center;
+     background-repeat:no-repeat;
+     height:100vh;
+     font-size:40px;
+     font-family: 'Akaya Telivigala', cursive;
+   font-family: 'Dancing Script', cursive;
+   font-family: 'Festive', cursive;
+   font-family: 'Gloria Hallelujah', cursive;
+   font-family: 'Heebo', sans-serif;
+   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Pacifico', cursive;
+   font-family: 'Redressed', cursive;
+   }
+   .container{
+     color:white;
+     margin: 50px;
+     display:grid;
+     grid-template-areas:
+       "header header header"
+       "content content sidebar"
+       "section section sidebar"
+       "footer footer footer";
+     grid-gap:10px;
+   }
+   .box{
+     border:5px solid white;
+     opacity:0.5;
+   }
+   .header{
+     grid-area:header;
+     height:100px;
+   }
+   .content{
+     grid-area:content;
+     height:200px;
+   }
+   .section{
+     grid-area:section;
+     height:200px;
+   }
+   .sidebar{
+     grid-area:sidebar;
+   }
+   .footer{
+     grid-area:footer;
+     height:100px;
+   }
